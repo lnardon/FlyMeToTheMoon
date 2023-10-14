@@ -1,2 +1,2 @@
 require("nardon.remap")
-print("Hello from Nardon package")
+print("\u{2713} Don package active!")
