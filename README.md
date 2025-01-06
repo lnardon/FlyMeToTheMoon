@@ -1,5 +1,5 @@
 # FlyMeToTheMoon
-My personal config for nvim. In other words...
+My personal config for nvim.
 
 ###### It is mandatory to listen to some Frank Sinatra while using this repo. 
 
@@ -19,5 +19,12 @@ My personal config for nvim. In other words...
 - Autopairs
 - Tokyonight Theme
 
+### Install
+Run the command below and the latest neovim will be installed and configured from the official repository.
+```bash
+./my_way.sh
+```
+
 #### Demo Images
 <img src="/demo_1.png"></img>
+<img src="/demo_2.png"></img>
