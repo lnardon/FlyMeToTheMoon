@@ -1,14 +1,23 @@
 # FlyMeToTheMoon
-The ultimate chad 1.000.000x software engineer neovim setup using lua (moon in portuguese). In other words ....
+My personal config for nvim. In other words...
+
+###### It is mandatory to listen to some Frank Sinatra while using this repo. 
 
 ### What it uses
-- Packer
+- Kickstart
 - Telescope
-- Rose pine theme
+- Git signs
+- Mason
 - Treesitter
-- Undotree
-- LSP Zero
+- LSPs/Linters
+    - Golang
+    - JS/TS (vanilla and react)
+    - Docker
+    - Prettier
+    - Lua
+- Lazy
+- Autopairs
+- Tokyonight Theme
 
 #### Demo Images
 <img src="/demo_1.png"></img>
-<img src="/demo_2.png"></img>
