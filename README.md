@@ -1,5 +1,5 @@
 # FlyMeToTheMoon
-My personal config for nvim.
+My personal config for nvim. Built on top of Kickstart.nvim.
 
 ###### It is mandatory to listen to some Frank Sinatra while using this repo. 
 
