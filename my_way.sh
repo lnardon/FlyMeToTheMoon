@@ -6,7 +6,7 @@ rm -rf /opt/nvim
 tar -C /opt -xzf nvim-linux64.tar.gz
 
 # Install kickstart.nvim dependencies
-apt install make gcc ripgrep unzip git xclip
+apt install make gcc ripgrep unzip git xclip -y
 
 # Create folder if necessary and move config to it
 mkdir -p ~/.config/nvim
