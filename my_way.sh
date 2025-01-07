@@ -5,6 +5,9 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.
 rm -rf /opt/nvim
 tar -C /opt -xzf nvim-linux64.tar.gz
 
+# Install kickstart.nvim dependencies
+apt install make gcc ripgrep unzip git xclip
+
 # Create folder if necessary and move config to it
 mkdir -p ~/.config/nvim
 mv ./* ~/.config/nvim
