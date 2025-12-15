@@ -22,6 +22,11 @@ vim.schedule(function()
 	vim.opt.clipboard = "unnamedplus"
 end)
 
+-- Setup for floaterm terminal
+vim.env.TERM = vim.env.TERM or "xterm-256color"
+vim.env.SHELL = vim.env.SHELL or vim.fn.exepath("bash") or "/bin/bash"
+vim.o.shell = vim.env.SHELL
+
 vim.opt.breakindent = true
 vim.opt.undofile = true
 
